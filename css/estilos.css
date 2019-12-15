@@ -52,3 +52,15 @@ body {
 #container #post {
   padding: 1em;
 }
+
+#container #footer {
+  color: white;
+  background-color: gray;
+}
+
+#container #footer .message {
+  padding: 7px;
+  text-align:  center;
+  margin-bottom: 0;
+  font-size: .6em;
+}
