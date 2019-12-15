@@ -1,14 +1,11 @@
 body {
-<<<<<<< HEAD
   color: rgb(30, 30, 114);
-=======
-  color: rgb(233, 27, 27);
->>>>>>> cabecera
   text-align: center;
-  font-family:  "Ubuntu Mono";
+  font-family:  "Ubuntu";
   font-size: 16px;
   margin: 0;
   padding: 0;
+  background-color: #313131;
 }
 
 #cabecera {
@@ -19,23 +16,39 @@ body {
   margin: 0;
   padding: .5em;
   font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+
+#cabecera #logo {
+  width: 56px;
+  margin-right: 21px;
+}
+
+#cabecera #logo img {
+  display: block;
+  width: 100%;
 }
 
 #cabecera #tagline {
-  margin: 0 0 0 0;
+  margin: 0 0 0 14px;
   font-weight: normal;
-  font-size: .8em;
+  font-size: .5em;
 }
 
 #container {
   width: 70%;
-  padding: 1em;
   text-align: left;
   border: 1px solid #DDD;
   margin: 0 auto;
-  font-size: 1.5em;
+  font-size: 1em;
+  background-color: white;
 }
 
 #container h1 {
   font-size: 20px;
+}
+
+#container #post {
+  padding: 1em;
 }
